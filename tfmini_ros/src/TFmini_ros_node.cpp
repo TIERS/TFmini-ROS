@@ -12,7 +12,9 @@ int main(int argc, char **argv)
   nh.param("serial_port", portName, std::string("/dev/ttyUSB0"));
   nh.param("baud_rate", baud_rate, 115200);
 
+  ROS_INFO_STREAM("Trying to connect to TFMINI ...");
   tfmini_obj = new benewake::TFmini(portName, baud_rate);
+  ROS_INFO_STREAM("Connected successfully!!");
   ros::Publisher pub_range = nh.advertise<sensor_msgs::Range>(id, 1000, true);
   sensor_msgs::Range TFmini_range;
   TFmini_range.radiation_type = sensor_msgs::Range::INFRARED;
