@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package>
-  <name>tfmini_ros</name>
+  <name>tfmini-ros-tiers</name>
   <version>0.0.1</version>
   <description>The TFmini_ros package (TIERS fork)</description>
 
