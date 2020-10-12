@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package>
-  <name>tfmini-ros-tiers</name>
+  <name>tfmini_ros_tiers</name>
   <version>0.0.1</version>
-  <description>The TFmini_ros package (TIERS fork)</description>
+  <description>The TFmini_ros_TIERS package (TIERS fork)</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag --> 
   <!-- Example:  -->
